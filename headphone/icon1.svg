@@ -1,0 +1,17 @@
+<svg id="svg" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 324">
+  <defs>
+    <style>
+      .cls-1,.cls-2{fill:#e4007f;}
+      .cls-1{opacity:0.44;}
+      .cls-2{opacity:0.92;}
+
+    </style>
+
+  </defs>
+  <title>icon1</title>
+  <path class="cls-1 cls" d="M403,143c-104.93,0-190,86.19-190,192.5,0,1.84,0,3.67.08,
+    5.5h30.83c-.1-2.32-.16-4.65-.16-7a159.25,159.25,0,0,1,318.5,0c0,2.35-.06,4.68-.16,
+    7h30.83c.05-1.83.08-3.66.08-5.5C593,229.19,507.93,143,403,143Z" transform="translate(-186 -143)"/>
+    <rect class="cls-2 cls" y="193" width="85" height="131" rx="42.19" ry="42.19"/>
+    <rect class="cls-2 cls" x="348" y="193" width="85" height="131" rx="42.19" ry="42.19"/>
+  </svg>

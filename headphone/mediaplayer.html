@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>player</title>
+<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<img src="icon1.svg" id="icon" alt="headphone." height="250px" />
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+
+<script type="text/javascript">
+  $("#icon").on("click", function(){
+      var audio = new Audio('song.m4a');
+               audio.play();
+               $('#icon').attr('src','icon2.svg');
+
+               const burst =new mojs.Burst({
+                 radius:{0:660},
+                 count:25,
+                 children:{
+                   shape:'circle',
+                  fill:         [ 'magenta','deeppink', 'cyan', 'yellow' ],
+                   strokeWidth:{6:0},
+                   angle:{360:0},
+                   radius:{25:5},
+                   duration:3000
+                 }
+               }).play();
+
+               $("#icon").hover( function(){
+                                 audio.pause();
+                                 $('#icon').attr('src','icon3.svg');
+                               });
+   });
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+img{
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  margin: auto;
+}
+img:hover{
+  -webkit-animation: animCircle 25s linear infinite;
+  -webkit-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes animCircle{
+   from{
+     -webkit-transform: rotate(0deg);
+   }
+   to{
+     -webkit-transform: rotate(360deg);
+   }
+}
